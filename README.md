@@ -35,5 +35,4 @@ running the project
 
 ## Authors
 
-- [Otávio Araujo](https://github.com/otavioaraujo08)
-- [Thiago Cabral](https://github.com/thsthiago)
+- [Aris Priyanto A .K. A Арис Приянто](https://github.com/aris-presley-aja/)
