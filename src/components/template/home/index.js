@@ -68,7 +68,7 @@ function Home() {
                         renderInput={(params) =>                     
                         <TextField
                             id="filled-basic"
-                            label="Search for your favorite pokemon"
+                            label="Search your pokemon"
                             variant="standard"
                             {...params}
                             sx={{
