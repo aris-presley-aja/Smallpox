@@ -51,15 +51,15 @@ function Home() {
                     onSubmit={handleSubmit}
                     className="searchBox"
                 >
-                    <Typography variant="h6">
+                    {/* <Typography variant="h6">
                     Search for/ 
-                    <img 
+
+                    </Typography> */}
+                                      <img 
                     src={Logo} 
                     alt="Pokemon-Logo"
-                    width="30%"
+                    width="20%"
                 />
-                    </Typography>
-                  
                     <Autocomplete
                         id="combo-box-demo"
                         options={list}
