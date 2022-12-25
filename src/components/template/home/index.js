@@ -42,7 +42,7 @@ function Home() {
                         justifyContent: 'space-between',
                         flexDirection: 'row',
                         alignItems: 'center',
-                        width: "55%",
+                        width: "auto",
                         p: 1,
                         mr: 1,
                         borderRadius: 1,
@@ -51,14 +51,14 @@ function Home() {
                     onSubmit={handleSubmit}
                     className="searchBox"
                 >
-                    <Typography variant="h5">
+                    <Typography variant="h8">
                     Search for/ Pokemon:
                     </Typography>
 
                     <Autocomplete
                         id="combo-box-demo"
                         options={list}
-                        sx={{ width: '50ch' }}
+                        sx={{ width: '35ch' }}
                         onChange={(e, newEvent) => setValueInput(newEvent.name)}
                         renderInput={(params) =>                     
                         <TextField
@@ -67,7 +67,7 @@ function Home() {
                             variant="standard"
                             {...params}
                             sx={{
-                                width: '50ch' 
+                                width: '35ch' 
                             }}
                         />}
                     />
