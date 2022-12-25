@@ -58,7 +58,7 @@ function Home() {
                     <Autocomplete
                         id="combo-box-demo"
                         options={list}
-                        sx={{ width: '35ch' }}
+                        sx={{ width: '32ch' }}
                         onChange={(e, newEvent) => setValueInput(newEvent.name)}
                         renderInput={(params) =>                     
                         <TextField
@@ -67,7 +67,7 @@ function Home() {
                             variant="standard"
                             {...params}
                             sx={{
-                                width: '35ch' 
+                                width: '32ch' 
                             }}
                         />}
                     />
@@ -82,7 +82,7 @@ function Home() {
                 <img 
                     src={Logo} 
                     alt="Pokemon-Logo"
-                    width="15%"
+                    width="10%"
                 />
             </Box>
 
@@ -132,7 +132,7 @@ function Home() {
                             <Paper
                                 sx = {{
                                     bgcolor: 'transparent',
-                                    borderRadius: 5,
+                                    borderRadius: 3,
                                 }}
                                 className="paper"
                             >
