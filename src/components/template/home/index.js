@@ -42,7 +42,7 @@ function Home() {
                         justifyContent: 'space-between',
                         flexDirection: 'row',
                         alignItems: 'center',
-                        width: "auto",
+                        width: "10%",
                         p: 1,
                         mr: 1,
                         borderRadius: 1,
@@ -51,7 +51,7 @@ function Home() {
                     onSubmit={handleSubmit}
                     className="searchBox"
                 >
-                    <Typography variant="h8">
+                    <Typography variant="h10">
                     Search for/ Pokemon:
                     </Typography>
 
@@ -82,7 +82,7 @@ function Home() {
                 <img 
                     src={Logo} 
                     alt="Pokemon-Logo"
-                    width="10%"
+                    width="9%"
                 />
             </Box>
 
