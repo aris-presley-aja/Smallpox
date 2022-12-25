@@ -42,7 +42,7 @@ function Home() {
                         justifyContent: 'space-between',
                         flexDirection: 'row',
                         alignItems: 'center',
-                        width: "10%",
+                        width: "auto",
                         p: 1,
                         mr: 1,
                         borderRadius: 1,
@@ -51,7 +51,7 @@ function Home() {
                     onSubmit={handleSubmit}
                     className="searchBox"
                 >
-                    <Typography variant="h10">
+                    <Typography variant="h6">
                     Search for/ Pokemon:
                     </Typography>
 
