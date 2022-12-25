@@ -52,9 +52,14 @@ function Home() {
                     className="searchBox"
                 >
                     <Typography variant="h6">
-                    Search for/ Pokemon:
+                    Search for/ 
+                    <img 
+                    src={Logo} 
+                    alt="Pokemon-Logo"
+                    width="30%"
+                />
                     </Typography>
-
+                  
                     <Autocomplete
                         id="combo-box-demo"
                         options={list}
@@ -71,7 +76,7 @@ function Home() {
                             }}
                         />}
                     />
-
+             
                     <Button
                         variant="contained"
                         type="submit"
@@ -79,11 +84,7 @@ function Home() {
                         <SearchIcon />
                     </Button>
                 </Box>
-                <img 
-                    src={Logo} 
-                    alt="Pokemon-Logo"
-                    width="9%"
-                />
+ 
             </Box>
 
             <div className='home'>
@@ -141,7 +142,7 @@ function Home() {
                                     gutterBottom
                                     component="div"
                                     sx = {{
-                                        m: 7,
+                                        m: 1,
                                     }}
                                     className='subTitles'
                                 >
