@@ -63,7 +63,7 @@ function Home() {
                     <Autocomplete
                         id="combo-box-demo"
                         options={list}
-                        sx={{ width: '32ch' }}
+                        sx={{ width: '26ch' }}
                         onChange={(e, newEvent) => setValueInput(newEvent.name)}
                         renderInput={(params) =>                     
                         <TextField
@@ -72,7 +72,7 @@ function Home() {
                             variant="standard"
                             {...params}
                             sx={{
-                                width: '32ch' 
+                                width: '26ch' 
                             }}
                         />}
                     />
