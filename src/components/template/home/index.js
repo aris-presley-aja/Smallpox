@@ -42,7 +42,7 @@ function Home() {
                         justifyContent: 'space-between',
                         flexDirection: 'row',
                         alignItems: 'center',
-                        width: "auto",
+                        width: "40%",
                         p: 1,
                         mr: 1,
                         borderRadius: 1,
