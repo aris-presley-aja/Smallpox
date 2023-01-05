@@ -39,10 +39,11 @@ function Home() {
                 <Box 
                     sx={{
                         display: 'flex',
-                        justifyContent: 'space-between',
+                        // space-between
+                        justifyContent: 'space-evenly',
                         flexDirection: 'row',
                         alignItems: 'center',
-                        width: "auto",
+                        width: "100%",
                         p: 1,
                         mr: 1,
                         borderRadius: 1,
@@ -51,6 +52,7 @@ function Home() {
                     onSubmit={handleSubmit}
                     className="searchBox"
                 >
+
                     {/* <Typography variant="h6">
                     Search for/ 
 
@@ -60,23 +62,29 @@ function Home() {
                     alt="Pokemon-Logo"
                     width="15%"
                 />
+                      
+                        <SearchIcon sx={{ fontSize: 14 }} />
+  
                     <Autocomplete
                         id="combo-box-demo"
                         options={list}
                         sx={{ width: '20rem' }}
                         onChange={(e, newEvent) => setValueInput(newEvent.name)}
-                        renderInput={(params) =>                     
+                        renderInput={(params) =>  
+                                               
                         <TextField
                             id="filled-basic"
                             label="Search your pokemon"
                             variant="standard"
                             {...params}
                             sx={{
-                                width: '10rem' 
+                                width: '11.5rem' 
                             }}
+                            
                         />}
+                        
                     />
-             
+                                                                                             
                     {/* <Button
                             sx={{
                                 width: '1rem' 
@@ -84,7 +92,7 @@ function Home() {
                         variant="contained"
                         type="submit"
                     > */}
-                        <SearchIcon sx={{ fontSize: 10 }} />
+                        {/* <SearchIcon sx={{ fontSize: 14 }} /> */}
                     {/* </Button> */}
                 </Box>
  
