@@ -8,11 +8,11 @@ function notFoundPage() {
         <Box className="notFoundPage">
             <>
                 <Typography variant='h2' className='title'>
-                    Procurando fantasmas ? Página errada !
+                Looking for ghosts? Wrong page!
                 </Typography>
                 <Typography variant='h6' className='title'>
                     <Link to={"/"}>
-                        Redirecionar para home !
+                    Redirect to home !
                     </Link>
                 </Typography>
             </>

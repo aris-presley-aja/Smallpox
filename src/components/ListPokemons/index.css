@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size: auto;
 }
-
+/* className="font-heading text-lg font-normal text-white" */
 .title {
     font-family: 'Anek Malayalam', sans-serif;
     color: #480ca8;
@@ -14,13 +14,13 @@
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 0px );
     -webkit-backdrop-filter: blur( 0px );
-    border-radius: 10px;
+    border-radius: 2px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .pokemonsName{
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.3rem;
+    font-size: 1em;
     color: #F5FFFA;
     text-decoration: none;
 }

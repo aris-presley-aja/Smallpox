@@ -42,7 +42,7 @@ function Home() {
                         justifyContent: 'space-between',
                         flexDirection: 'row',
                         alignItems: 'center',
-                        width: "40%",
+                        width: "auto",
                         p: 1,
                         mr: 1,
                         borderRadius: 1,
@@ -58,12 +58,12 @@ function Home() {
                                       <img 
                     src={Logo} 
                     alt="Pokemon-Logo"
-                    width="20%"
+                    width="15%"
                 />
                     <Autocomplete
                         id="combo-box-demo"
                         options={list}
-                        sx={{ width: '26ch' }}
+                        sx={{ width: '20rem' }}
                         onChange={(e, newEvent) => setValueInput(newEvent.name)}
                         renderInput={(params) =>                     
                         <TextField
@@ -72,16 +72,19 @@ function Home() {
                             variant="standard"
                             {...params}
                             sx={{
-                                width: '26ch' 
+                                width: '12rem' 
                             }}
                         />}
                     />
              
                     <Button
+                            sx={{
+                                width: '1rem' 
+                            }}
                         variant="contained"
                         type="submit"
                     >
-                        <SearchIcon />
+                        <SearchIcon sx={{ fontSize: 10 }} />
                     </Button>
                 </Box>
  
@@ -125,6 +128,7 @@ function Home() {
                                 startIcon={<FormatColorResetIcon />}
                                 sx = {{
                                     mt: 1,
+                                    width: '100%'
                                 }}
                             >
                                 Weakness: Water
