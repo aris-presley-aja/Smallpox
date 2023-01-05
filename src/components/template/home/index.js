@@ -72,20 +72,20 @@ function Home() {
                             variant="standard"
                             {...params}
                             sx={{
-                                width: '12rem' 
+                                width: '10rem' 
                             }}
                         />}
                     />
              
-                    <Button
+                    {/* <Button
                             sx={{
                                 width: '1rem' 
                             }}
                         variant="contained"
                         type="submit"
-                    >
+                    > */}
                         <SearchIcon sx={{ fontSize: 10 }} />
-                    </Button>
+                    {/* </Button> */}
                 </Box>
  
             </Box>
